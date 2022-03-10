@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>外出申请</title>
+    <script type="text/javascript" src="校园紫码.js"></script>
+    <link rel="stylesheet" type="text/css" href="校园紫码.css">
+</head>
+<body style="margin: 0px">
+<!--<div id="main">-->
+<div id="head">
+    <div class="headtap" onclick="ShowTab('0')" style="color: #52C7CA">
+        <div class="headtap2">外出申请</div>
+        <div class="headline"></div>
+    </div>
+    <div class="headtap" onclick="ShowTab('1')">
+        <div class="headtap2">外出记录</div>
+        <div class="headline" style="display: none"></div>
+    </div>
+
+</div>
+<div class="bodycontext">
+    <div id="leftbodyhead">
+        <div style="width: 86px;height: 86px;margin: 20px;background-color: #52C7CA;float: left">
+            <div style="width: 86px;height: 86px;background-color:white;border-radius: 86px;display: flex;/*弹性布局方式*/justify-content: center;/*水平居中*/align-items: center;">
+                <div style="width: 80px;height: 80px;"><img src="none.png" alt="头像" height="80px" width="80px"></div>
+            </div>
+        </div>
+        <div style="height: 60px;width: 321px">
+            <div class="fontclass">孔浩然 20201000125</div>
+            <div class="fontclass">计算机学院/19C202</div>
+        </div>
+    </div>
+    <div style="font-family: 'Microsoft YaHei';height: 50px;margin: 0px 30px;font-size: 18px;display: flex;align-items: center;">临时出校二维码</div>
+    <div style="height: 1px;margin: 0px 30px;background-color: rgb(238,238,238);"></div>
+    <div style="height: 50px;margin: 15px 0px 0px;display: flex;justify-content: center;">
+        <img src="ld2.png" style="margin: 12px 5px 0px 0px; height: 26px;width: 26px;">
+        <div style="color: #FF9918;height: 50px;display: flex;align-items: center;font-family: 'Microsoft YaHei'">距离返回时间还剩：<span id="time"></span></div>
+    </div>
+    <div style="height: 180px;display:flex;justify-content: center;">
+        <div style="display:flex;justify-content: center;align-items: center;height: 170px;width: 170px;margin: 10px 0px 0px;border: 1px solid rgb(238,238,238);">
+            <img src="联图二维码.png" style="height: 150px;width: 150px;">
+        </div>
+    </div>
+    <div style="height: 15.5px;display:flex;justify-content: center;font-size: 12px;font-family: 'Microsoft YaHei';margin:20px 0px 0px;padding:0px 0px 30px;color: #92969C">
+        请向校方检查人员出示二维码，扫码进出校～</div>
+    <div id="leftbodytail" onclick="Change()">重新申请</div>
+</div>
+<div class="bodycontext" style="display: none">
+    <div style="background-color: crimson;width: 400px; height:600px;"></div>
+</div>
+<!--</div>-->
+</body>
+</html>

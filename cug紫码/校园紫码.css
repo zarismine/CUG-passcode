@@ -1,0 +1,86 @@
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#head{
+    /*background-color: aquamarine;*/
+    margin:0 auto;
+    height: 43px;
+    /*width:315px;*/
+    display: flex;/*弹性布局方式*/
+    justify-content: center;/*水平居中*/
+    align-items: center;/*设置垂直轴线的位置 center中间*/
+}
+.headtap{
+    /*text-align: center;*/
+    /*float: left;*/
+    /*color:#52C7CA;*/
+    font-family: "Microsoft YaHei";
+    text-align: center;
+    font-size: 14px;
+    width: 50%;
+    height:43px;
+
+}
+.headtap2{
+    height: 14px;
+    padding: 14px 0px 13px;
+    display: inline-block;
+}
+.headline{
+    width: 100%;
+    height:2px;
+    background-color: #52C7CA;
+}
+.bodycontext{
+    /*text-align: center;*/
+    /*font-size: 14px;*/
+    /*width: 400px;*/
+    height:600px;
+    /*display: inline-block;*/
+    margin:0 auto;
+    /*display: flex;!*弹性布局方式*!*/
+    /*justify-content: center;!*水平居中*!*/
+    /*align-items: center;!*设置垂直轴线的位置 center中间*!*/
+}
+#leftbody{
+    /*background-color: black;*/
+    /*width: 400px;*/
+    height:600px;
+    display: inline-block;
+}
+#leftbodyhead{
+    /*width:400px;*/
+    height: 126px;
+    background-color: #52C7CA;
+    display: flex;/*弹性布局方式*/
+    /*justify-content: center;!*水平居中*!*/
+    align-items: center;/*设置垂直轴线的位置 center中间*/
+}
+.fontclass{
+    font-family: "Microsoft YaHei";
+    /*padding-bottom: 1px soild "#52C7CA";*/
+    font-size: 16px;
+    height:30px;
+    width: 160.68px;
+    color: white;
+    float: left;
+}
+#leftbodytail{
+    background-color: #52C7CA;
+    height: 50px;
+    margin: 50px 0px 0px;
+    padding: 0px 10px;
+    font-family: Arial;
+    font-size: 15px;
+    color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+/*#right{*/
+/*    background-color: crimson;*/
+/*}*/
